@@ -1,0 +1,28 @@
+.resume-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid var(--tertiary);
+    padding-bottom: 0.15rem;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.resume-download svg {
+    display: block;
+}
+
+.resume-download:hover,
+.resume-download:focus-visible {
+    color: var(--secondary);
+    border-bottom-color: var(--secondary);
+}
+
+[data-theme="dark"] .resume-download:hover,
+[data-theme="dark"] .resume-download:focus-visible {
+    color: var(--content);
+    border-bottom-color: var(--content);
+}
+
