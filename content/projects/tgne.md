@@ -6,7 +6,7 @@ externalUrl = "https://github.com/ltsypin/TGNE-2022.git"
 showToc = false
 +++
 
-## Tetrahymena Gene Network Explorer (TGNE)
+![TGNE Graphical Abstract](/assets/tgne_graphical_abstract.jpg)
 
 ### The Problem & Motivation:
 
@@ -37,3 +37,9 @@ As a lead developer on this project, my responsibilities covered the entire pipe
 **Network & Community Detection:** Graphs were constructed using **umap-learn** and clustered using the **leidenalg** library. Parameter optimization was guided by **networkx** modularity scores.
 
 **Visualization & Dashboard:** **Bokeh** was used to generate all plots and the final interactive, standalone HTML dashboard.
+
+### Resources & Citation
+
+[Live Dashboards and Guide](https://tet.ciliate.org/gne.php)
+
+**Michael A. Bertagna**, Lydia J. Bright, Fei Ye, Yu-Yang Jiang, Debolina Sarkar, Ajay Pradhan, Santosh Kumar, Shan Gao, Aaron P. Turkewitz, Lev M. Z. Tsypin, "Inferring gene-pathway associations from consolidated transcriptome datasets: an interactive gene network explorer for Tetrahymena thermophila," _NAR Genomics and Bioinformatics_, Volume 7, Issue 2, June 2025, lqaf067. [doi:10.1093/nargab/lqaf067](https://doi.org/10.1093/nargab/lqaf067)
